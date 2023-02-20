@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=DM+Sans&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .header-container .main-nav {
     display: flex;
@@ -22,6 +23,11 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
 }
 
 
@@ -147,7 +153,11 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 3em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 
 .footer-item-1 {
@@ -174,7 +184,7 @@
 }
 
 .img {
-    width: 28.4em;
+    width: 27em;
 }
 
 .copyright {
@@ -189,8 +199,8 @@
 
 .join-btn {
     width: 163.09px;
-    height: 56px;
-    left: calc(50% - 163.09px/2 + 475.55px);
+    height: 2.5em;
+    /* left: calc(50% - 163.09px/2 + 475.55px); */
     background: #363636;
     border-radius: 12px;
     font-family: 'DM Sans';
@@ -199,6 +209,7 @@
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
+    border: none;
 }
 
 
@@ -209,12 +220,13 @@
     }
 
     .footer {
-        position: absolute;
-        bottom: 0;
+        /* position: absolute; */
+        /* bottom: 0; */
+        /* background-color: green; */
 
         display: flex;
         flex-direction: column;
-        margin-top: 3em;
+        /* margin-top: 3em; */
     }
 
     .footer .footer-item-1 {
@@ -242,6 +254,7 @@
 
     .slider {
         display: grid;
+        /* background-color: purple; */
     }
 
     .slide-text-div {
@@ -263,7 +276,7 @@
     }
 
     .img {
-        width: 25em;
+        width: 20em;
     }
 
     .logo {
@@ -271,20 +284,24 @@
     }
 
     .footer .footer-item-2 {
-        order: 2
+        order: 2;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
     }
 
     .footer .footer-item-3 {
         order: 1;
         display: flex;
         justify-content: center;
+        padding: 0;
     }
 
     .join-btn {
-        width: 170px;
-        height: 56px;
+        /* width: 7em; */
+        /* height: 56px; */
         margin-left: 2em;
-        margin-bottom: 3em;
+        margin-bottom: 1em;
     }
 
 }

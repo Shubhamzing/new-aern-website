@@ -13,7 +13,7 @@ export default function Header() {
         <div class="header-container">
             <nav class="main-nav">
                 <img src={logo} className="logo" />
-                <ul class="nav">
+                <ul className="nav">
                     <li><a>Home</a></li>
                     {/* <li><a>Terms</a></li> */}
                     <li onClick={() => navigateTo('privacy-policy')}><a>Privacy Policy</a></li>
