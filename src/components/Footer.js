@@ -52,9 +52,9 @@ export default function Footer() {
                 <div className="footer-item-2">
                     <img src={imgTag} className="img" />
                 </div>
-                <div className="footer-item-3">
+                {/* <div className="footer-item-3">
                     <button className='join-btn' onClick={handleOpen}>Join waitlist</button>
-                </div>
+                </div> */}
             </div>
         </>
     );
