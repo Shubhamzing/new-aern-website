@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/new-aern-website/static/css/main.cd3c09ce.css",
-    "main.js": "/new-aern-website/static/js/main.0f8cb77d.js",
-    "static/js/905.1477b829.chunk.js": "/new-aern-website/static/js/905.1477b829.chunk.js",
-    "static/js/787.fe13efbf.chunk.js": "/new-aern-website/static/js/787.fe13efbf.chunk.js",
-    "static/media/img-tag.svg": "/new-aern-website/static/media/img-tag.6140e84f3061ea5fba291bdef0878b12.svg",
-    "static/media/logo.svg": "/new-aern-website/static/media/logo.c07358780d4acac613972fe719cfbd94.svg",
-    "index.html": "/new-aern-website/index.html",
-    "main.cd3c09ce.css.map": "/new-aern-website/static/css/main.cd3c09ce.css.map",
-    "main.0f8cb77d.js.map": "/new-aern-website/static/js/main.0f8cb77d.js.map",
-    "905.1477b829.chunk.js.map": "/new-aern-website/static/js/905.1477b829.chunk.js.map",
-    "787.fe13efbf.chunk.js.map": "/new-aern-website/static/js/787.fe13efbf.chunk.js.map"
+    "main.css": "/static/css/main.cd3c09ce.css",
+    "main.js": "/static/js/main.cd3c0787.js",
+    "static/js/905.1477b829.chunk.js": "/static/js/905.1477b829.chunk.js",
+    "static/js/787.fe13efbf.chunk.js": "/static/js/787.fe13efbf.chunk.js",
+    "static/media/img-tag.svg": "/static/media/img-tag.6140e84f3061ea5fba291bdef0878b12.svg",
+    "static/media/logo.svg": "/static/media/logo.c07358780d4acac613972fe719cfbd94.svg",
+    "index.html": "/index.html",
+    "main.cd3c09ce.css.map": "/static/css/main.cd3c09ce.css.map",
+    "main.cd3c0787.js.map": "/static/js/main.cd3c0787.js.map",
+    "905.1477b829.chunk.js.map": "/static/js/905.1477b829.chunk.js.map",
+    "787.fe13efbf.chunk.js.map": "/static/js/787.fe13efbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd3c09ce.css",
-    "static/js/main.0f8cb77d.js"
+    "static/js/main.cd3c0787.js"
   ]
 }
