@@ -2,7 +2,7 @@
   "homepage": "http://Shubhamzing.github.io/new-aern-website",
   "name": "aern-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
